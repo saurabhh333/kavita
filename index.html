@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Surprise</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="content">
+    <!-- Clock Section -->
+    <div class="clock-container">
+      <div class="window-top"></div>
+      <h1 id="countdown-timer"></h1>
+    </div>
+
+    <div class="surprise-card">
+      <h2 class="happy-birthday">Happy Birthday Kavita</h2>
+      <button id="revealButton" disabled>Reveal Surprise</button>
+      <div id="popUpMessage" class="pop-up-message"></div>
+      <div id="video-container" class="video-container">
+        <video id="surpriseVideo" width="320" height="240" controls>
+          <source src="33.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
