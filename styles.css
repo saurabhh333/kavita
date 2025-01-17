@@ -6,7 +6,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: url('4.png') no-repeat center center fixed; /* Add your background image here */
+  background: url('assets/1.png') no-repeat center center fixed; /* Add your background image here */
   background-size: cover;
   overflow: hidden;
   color: white;
